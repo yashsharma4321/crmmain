@@ -55,6 +55,7 @@ Route::middleware('auth:sanctum')->group(function () {
 
     // Route::get('/company/view',[CompanyController::class,'viewcompany']);
     //sdsdsdaasdfasdfasdf
+    //sdfkajsdlfjasljdf
     Route::post('/create/client/services',[ClientController::class,'ClientServicestore']);
     Route::post('/create/client',[ClientController::class,'createclient']);
 
