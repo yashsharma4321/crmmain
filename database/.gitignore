@@ -1,0 +1,20 @@
+# Laravel
+/vendor/
+
+.env
+.env.*
+
+
+
+# Public uploads
+/public/*
+!/public/.gitkeep
+
+# Storage
+/storage/*
+!/storage/app/public/.gitkeep
+
+# Logs
+
+# OS files
+
